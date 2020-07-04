@@ -1,7 +1,9 @@
 // Abstracts
 @import './1-abstracts/index';
-
+// base
 @import './2-base/document';
+@import './2-base/typography';
+// components
 @import './3-components/video-container-16x9.scss';
-
+// pages
 @import './5-pages/_main';
