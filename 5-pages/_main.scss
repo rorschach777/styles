@@ -9,5 +9,8 @@ body {
         text-align: center;
         position: relative;
         top: -8.5rem;
+        @media only screen and (max-width: $mobile){
+            top: -7.5rem;
+        }
     }
 }
