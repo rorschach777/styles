@@ -65,7 +65,6 @@ p, span, li {
     font-size: $p;
     line-height: adjustLineHeight($p);
     font-family: $font-secondary, $font-default;
-
     // Mobile adjustments:
     @include adjust-font-size-mobile($p);
 }
